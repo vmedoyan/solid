@@ -15,7 +15,7 @@ class PostgreSQLConnection:DBConnectionInterface {
     }
 }
 
-class Sql(_dbConnection:Any){
+class Sql(_dbConnection:DBConnectionInterface){
     var dbConnection = _dbConnection
 }
 
